@@ -4,4 +4,5 @@ function writeCards (names, event){
   for (let i = 0; i < message.length; i++){
     console.log(`Thank you, ${names[i]}, for the wonderful ${event[i]} gift.`);
   }
+  return message;
 }
