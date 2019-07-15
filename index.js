@@ -6,3 +6,11 @@ function writeCards (names, event){
   }
   return messages;
 }
+
+function countdown(number){
+  number < 0 ? number *= -1 : number;
+  while (number >= 0 ){
+    console.log(number);
+    number--;
+  }
+}
